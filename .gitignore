@@ -1,0 +1,17 @@
+## Exclude everything by default
+/*
+!.gitignore
+
+## Include FMI code styles, exclude any other code style
+!/codestyles/
+/codestyles/*
+!/codestyles/FMI*.xml
+
+## Include FMI inspections, exclude any other inspection
+!/inspection/
+/inspection/*
+!/inspection/FMI*.xml
+
+## Include specified files
+!/LICENSE
+!/README.md
